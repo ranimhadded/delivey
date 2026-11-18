@@ -1,27 +1,46 @@
-# Delivey � Delivery Management Platform
+# Delivey – Package Delivery & Tracking Platform
 
-A full-stack delivery management application built with React and Spring Boot.
+A full-stack delivery management platform that connects clients with delivery personnel. Clients can submit packages for delivery and track their shipment status and location, while delivery personnel manage deliveries and update package statuses.
+
+## User Roles
+
+### Client
+- Submit packages for delivery.
+- Track package status.
+- View package location on a map.
+- Monitor delivery progress.
+
+### Delivery Personnel
+- View assigned packages.
+- Manage delivery operations.
+- Update package statuses, including Pending, Canceled, and Delivered.
+
+## Main Features
+
+- Role-based user experience.
+- Package submission and delivery management.
+- Real-time delivery status tracking (as implemented).
+- Map-based package location tracking.
+- Separate client and delivery personnel workflows.
 
 ## Technologies
 
-### Frontend
-- React
-- JavaScript
-- CSS
+**Frontend:** React
 
-### Backend
-- Java
-- Spring Boot
-- Maven
+**Backend:** Java, Spring Boot, Maven
 
 ## Project Structure
 
-- `frontend/` � React application
-- `backend/` � Spring Boot application
+```text
+delivey/
+├── frontend/
+└── backend/
+```
 
 ## Getting Started
 
-See the frontend and backend folders for their respective setup instructions.
+The frontend and backend are maintained separately. Refer to their respective configuration files for installation and execution instructions.
 
 ---
-Academic software engineering project.
+
+Academic Full-Stack Development Project.
