@@ -1,0 +1,22 @@
+# Dependencies
+**/node_modules/
+
+# Build output
+**/build/
+**/target/
+**/bin/
+**/dist/
+
+# IDE files
+**/.idea/
+**/.settings/
+**/*.iml
+
+# Environment files and secrets
+.env
+.env.*
+**/.env
+**/.env.*
+
+# Logs
+*.log
